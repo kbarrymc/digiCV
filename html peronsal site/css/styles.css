@@ -1,0 +1,111 @@
+
+
+
+        body {
+            background-color: rgb(219, 237, 183);
+            
+        }
+
+        hr {
+            border-color: black;
+            border-style: none;
+            border-top-style: dotted;
+            border-width: 5px;
+            width:60%;
+            margin-left: 20% !important;
+            margin-right: 20% !important;
+            align-items: center;
+        }
+        h1 { font-style: oblique;
+            font-size:xx-large;
+            font-weight: bolder;
+            color: rgb(49, 45, 45); 
+            text-align: center;
+            
+        }
+
+        h2 { font-style: italic;
+            font-size:large ;
+            color:hsl(27, 85%, 3%)
+        }
+        
+        h3 { font-style: normal;
+            font-size:medium ;
+            color:hsl(137, 41%, 3%)
+        }
+
+        h4 { font-style: normal;
+            font-size:small ;
+            color:hsl(28, 63%, 44%)
+        }
+
+        h5 { font-style: normal;
+            font-size:xx-small ;
+            color:hsl(27, 85%, 3%)
+        }
+
+        li {font-size: 25px;
+        }
+
+        p{
+            width:95%
+        }
+
+        th  {
+            color: darkgoldenrod;
+        }
+
+        td {
+            color: hsl(209, 88%, 53%); font-weight:lighter;
+        }
+
+        .accordion {
+          background-color:rgb(219, 237, 183);
+          color: hsl(258, 71%, 5%);
+          cursor: pointer;
+          padding: 18px;
+          width: 95%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 20px;
+          transition: 0.0s;
+        }
+        
+        .active, .accordion:hover {
+          background-color: hsl(49, 66%, 50%); 
+        }
+        
+        .panel {
+          padding: 0 18px;
+          display: none;
+          background-color: 0ff567ab;
+          overflow: hidden;
+        }
+
+        .topPanel {
+            background-color: rgb(219, 237, 183);
+            padding: -25%;
+            align-items: center;
+        }
+        
+        .about_me {
+            margin-left: 15%;
+            margin-right: 15%;
+            text-align: center;
+        }
+
+        .nav-bar {
+            align-content: center;
+        }
+
+        .contact_me {
+            text-align: center;
+        }
+
+        .contactDetailsTable {
+            align-items: center;
+        }
+
+
+      
